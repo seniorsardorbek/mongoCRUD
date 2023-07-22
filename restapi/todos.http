@@ -1,0 +1,19 @@
+### REGISTER USER
+POST http://localhost:3000/todos
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjRiYjU2Njg0NGQwNzRkYjFkMmY1YWEwIn0sImlhdCI6MTY4OTk5ODk1OH0.vg26pA2K5nQuavl1A6VKqkDxaY2jvvmCJ6lSNgBpGYg
+
+{
+  "todo": "uxlash kerak botam",
+  "user_id": "64bb566844d074db1d2f5aa0",
+  "list_id": "64bb61871baadd780551bca4"
+}
+### Get USER
+GET http://localhost:3000/todos
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjRiYjU2Njg0NGQwNzRkYjFkMmY1YWEwIn0sImlhdCI6MTY4OTk5ODk1OH0.vg26pA2K5nQuavl1A6VKqkDxaY2jvvmCJ6lSNgBpGYg
+### Get USER
+GET http://localhost:3000/todos/64bb623696a9d093483aeca0
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjRiYjU2Njg0NGQwNzRkYjFkMmY1YWEwIn0sImlhdCI6MTY4OTk5ODk1OH0.vg26pA2K5nQuavl1A6VKqkDxaY2jvvmCJ6lSNgBpGYg
+### Get USER
+DELETE   http://localhost:3000/todos/64bb671ae166b506f0b0d7dd
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjRiYjU2Njg0NGQwNzRkYjFkMmY1YWEwIn0sImlhdCI6MTY4OTk5ODk1OH0.vg26pA2K5nQuavl1A6VKqkDxaY2jvvmCJ6lSNgBpGYg
